@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    主页
+   <van-nav-bar title="主页" >
+  <van-icon name="search" slot="left" />
+  <van-icon name="cart" slot="right" />
+</van-nav-bar>
   </div>
 </template>
 
